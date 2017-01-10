@@ -1,0 +1,88 @@
+*{
+	
+	margin:0px;
+	padding:0px;
+	
+}
+
+h1{/* titre h1 rouge police arima madurai souligner center et entourer d'un cadre noir*/
+	
+	margin:0 auto;
+	text-align:center;
+	border:3px inset black;
+	width:50%;
+	text-decoration:underline;
+	padding:5px;
+	font-family: 'Arima Madurai', cursive;
+	color:red;
+	
+}
+
+h2{/* titre h2 police noto sans souligner center*/
+	
+	margin:0 auto;
+	text-decoration:underline;
+	margin-bottom:40px;
+	text-align:justify;
+	max-width:800px;
+	min-width:200px;
+	padding: 0px;
+	font-family: 'Noto Sans', sans-serif;
+	
+}
+
+.texte{
+	
+	width:50%;
+	margin:0 auto;
+	min-width:200px;
+	padding: 10px;
+	margin-bottom: 50px;
+	font-size:120%;
+
+}
+
+.nom_prenom{/* nom et prénom en haut à gauche de la page en petit*/
+	
+	font-size:75%;
+	text-align:left;
+	
+}
+
+section{/* mise en place des cadres noirs*/
+	
+	width:40%;
+	border:1px solid black;
+	padding:30px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	
+}
+
+li{
+	
+	margin: 20px;
+	
+}
+
+.menu{/* menu de navigation à gauche de la page avec un fond blanc, un cadre noir et une police open sans condensed*/
+	
+	width:20%;
+	border:1px solid black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:left;
+	background-color:white;
+	
+}
+
+body{/*mise en place du fond d'écran de la page ainsi que de l'image de profil*/
+	
+	background:url("profil.png") no-repeat top right,url("fond_cv.jpeg")fixed;
+	
+}
+
+footer{/*pied de page en petit*/
+	
+	font-size:75%;
+	
+}
